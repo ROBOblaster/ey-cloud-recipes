@@ -4,10 +4,10 @@
 #
 
 # Set your application name here
-appname = "appname"
+appname = "ROBOblaster"
 
 # Uncomment the flavor of sphinx you want to use
-#flavor = "thinking_sphinx"
+flavor = "thinking_sphinx"
 #flavor = "ultrasphinx"
 
 # If you want to have scheduled reindexes in cron, enter the minute
@@ -17,7 +17,7 @@ appname = "appname"
 # If you don't want scheduled reindexes, just leave this commented.
 #
 # Uncommenting this line as-is will reindex once every 10 minutes.
-# cron_interval = 10
+cron_interval = 10
 
 if ['solo', 'app', 'app_master'].include?(node[:instance_role])
 
