@@ -16,6 +16,8 @@
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
 require_recipe "sphinx"
 
+require_recipe "delayed_job"
+
 #uncomment to turn on memcached
 # require_recipe "memcached"
 
