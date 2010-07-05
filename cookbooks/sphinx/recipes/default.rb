@@ -4,7 +4,7 @@
 #
 
 # Set your application name here
-appname = "ROBOblaster"
+appname = "Zistle"
 
 # Uncomment the flavor of sphinx you want to use
 flavor = "thinking_sphinx"
