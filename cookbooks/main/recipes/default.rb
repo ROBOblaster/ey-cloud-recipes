@@ -17,7 +17,7 @@
 require_recipe "sphinx"
 
 #require_recipe "sphinx99"
-#require_recipe "delayed_job"
+require_recipe "delayed_job"
 
 #uncomment to turn on memcached
 # require_recipe "memcached"
