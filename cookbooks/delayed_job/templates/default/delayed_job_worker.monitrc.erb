@@ -1,5 +1,5 @@
 check process <%= @worker_name %>
-  with pidfile /data/<%= @app_name %>/shared/pids/<%= @worker_name %>.pid
+  with pidfile /var/run/engineyard/dj/<%= @app_name %>/dj.pid
   start program = "/engineyard/bin/dj <%= @app_name %> start production"
   stop program = "/engineyard/bin/dj <%= @app_name %> stop production"
   if totalmem is greater than 300 MB then restart

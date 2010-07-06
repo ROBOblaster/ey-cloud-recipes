@@ -34,7 +34,7 @@ if ['solo', 'app', 'app_master'].include?(node[:instance_role])
     
     bash "monit-reload-restart" do
        user "root"
-       code "monit reload && monit"
+       code "monit restart all -g #{@app_name}_jobs"
     end
       
   end
